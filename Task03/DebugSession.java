@@ -7,7 +7,7 @@ public class DebugSession {
     var connector = Bootstrap.virtualMachineManager().defaultConnector();
     var settings = connector.defaultArguments();
     settings.get("main").setValue("SalesResources");
-    settings.get("options").setValue("-cp " + System.getProperty("java.class.path"));
+    settings.get("options").setValue("-cp \"" + System.getProperty("java.class.path") + "\"");
     VirtualMachine vm = connector.launch(settings);
     var requests = vm.eventRequestManager();
     var prepare = requests.createClassPrepareRequest();

@@ -23,11 +23,14 @@ public class ResultProcessor {
     ExecutorService pool = Executors.newFixedThreadPool(threads);
     List<Future<Result>> futures = new ArrayList<>();
     try {
-      for (Path p : paths) futures.add(pool.submit(() -> {
-        Result result = process(p);
-        results.add(result);
-        return result;
-      }));
+      for (Path p : paths)
+        futures.add(
+            pool.submit(
+                () -> {
+                  Result result = process(p);
+                  results.add(result);
+                  return result;
+                }));
       for (int i = 0; i < futures.size(); i++)
         try {
           futures.get(i).get();

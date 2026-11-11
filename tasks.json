@@ -1,0 +1,29 @@
+{
+  "Task01": [
+    "Atm"
+  ],
+  "Task02": [
+    "StorageDemo",
+    "ExamPortal"
+  ],
+  "Task03": [
+    "SalesResources",
+    "DebugSession"
+  ],
+  "Task04": [
+    "ScannerThreads",
+    "DaemonDemo"
+  ],
+  "Task05": [
+    "SeatBooking",
+    "BookingExperiments"
+  ],
+  "Task06": [
+    "TokenCounter",
+    "ConcurrencyInvestigation",
+    "CounterTrace"
+  ],
+  "Task07": [
+    "ResultProcessor"
+  ]
+}

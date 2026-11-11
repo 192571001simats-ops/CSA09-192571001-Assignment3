@@ -1,0 +1,7 @@
+$ javac WrongCatchOrder.java
+/tmp/java-reference-mu70p63t/WrongCatchOrder.java:1: error: exception NumberFormatException has already been caught
+public class WrongCatchOrder {public static void main(String[] args){try{Integer.parseInt("x");}catch(IllegalArgumentException e){System.out.println("broad");}catch(NumberFormatException e){System.out.println("narrow");}}}
+                                                                                                                                                               ^
+1 error
+
+Compile exit: 1

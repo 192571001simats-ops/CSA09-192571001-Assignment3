@@ -1,0 +1,8 @@
+$ javac UncaughtFailure.java
+
+Compile exit: 0
+RUN 1 exit=1
+Exception in thread "main" java.lang.IllegalArgumentException: Amount must be positive
+	at UncaughtFailure.service(UncaughtFailure.java:3)
+	at UncaughtFailure.main(UncaughtFailure.java:7)
+
