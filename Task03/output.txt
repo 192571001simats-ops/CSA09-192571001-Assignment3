@@ -1,0 +1,21 @@
+$ java SalesResources
+PASS manual finally and try-with-resources same sales report
+Leaky version open readers after failure=1
+PASS reproduced leaked handle
+PASS manual finally closes on failure
+FAILED FILE store-b.txt java.lang.NumberFormatException: For input string: "BAD"
+PASS try-with-resources closes on failure
+Primary: body failed; suppressed: close failed
+Atomic publication of the report is still required to avoid publishing a partially written result
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
+$ java DebugSession
+BREAKPOINT SalesDebug:3
+STEP OVER SalesDebug:4
+Debugger demonstrates the failure occurs before the close/reset statement
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
