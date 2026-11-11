@@ -18,6 +18,9 @@ cd ..
 cd Task06
 java -cp ../build/Task06 ConcurrencyInvestigation
 cd ..
+cd Task06
+java -cp ../build/Task06 CounterTrace
+cd ..
 ```
 
 Windows PowerShell uses `Get-ChildItem shared,Task06 -Recurse -Filter *.java` to collect sources before calling javac.

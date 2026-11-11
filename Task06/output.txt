@@ -21,3 +21,10 @@ PASS ArrayBlockingQueue capacity
 Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
 
 Exit code: 0
+$ java CounterTrace
+PASS 60 unique tokens collected with complete occupancy trace
+Observed occupancy min=0 max=5 final=0
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
