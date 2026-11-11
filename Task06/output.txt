@@ -1,0 +1,23 @@
+$ java TokenCounter
+Sum of tokens collected: 210 (expected 210)
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
+$ java ConcurrencyInvestigation
+PASS two-lock circular wait detected by ThreadMXBean
+"deadlock-A" daemon prio=5 Id=20 BLOCKED on java.lang.Object@3d075dc0 owned by "deadlock-B" Id=21
+
+
+"deadlock-B" daemon prio=5 Id=21 BLOCKED on java.lang.Object@6f539caf owned by "deadlock-A" Id=20
+
+
+PASS ordered transfers preserve money and finish
+while-loop=false observed min=-1 max=1 final=0
+while-loop=true observed min=0 max=1 final=0
+PASS guard recheck prevents underflow
+PASS ArrayBlockingQueue capacity
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
