@@ -1,0 +1,201 @@
+file,error
+score0.txt,NoSuchFileException: inputs/score0.txt
+score1.txt,NumberFormatException: For input string: "BAD"
+score100.txt,NoSuchFileException: inputs/score100.txt
+score101.txt,NumberFormatException: For input string: "BAD"
+score200.txt,NoSuchFileException: inputs/score200.txt
+score201.txt,NumberFormatException: For input string: "BAD"
+score300.txt,NoSuchFileException: inputs/score300.txt
+score301.txt,NumberFormatException: For input string: "BAD"
+score400.txt,NoSuchFileException: inputs/score400.txt
+score401.txt,NumberFormatException: For input string: "BAD"
+score500.txt,NoSuchFileException: inputs/score500.txt
+score501.txt,NumberFormatException: For input string: "BAD"
+score600.txt,NoSuchFileException: inputs/score600.txt
+score601.txt,NumberFormatException: For input string: "BAD"
+score700.txt,NoSuchFileException: inputs/score700.txt
+score701.txt,NumberFormatException: For input string: "BAD"
+score800.txt,NoSuchFileException: inputs/score800.txt
+score801.txt,NumberFormatException: For input string: "BAD"
+score900.txt,NoSuchFileException: inputs/score900.txt
+score901.txt,NumberFormatException: For input string: "BAD"
+score1000.txt,NoSuchFileException: inputs/score1000.txt
+score1001.txt,NumberFormatException: For input string: "BAD"
+score1100.txt,NoSuchFileException: inputs/score1100.txt
+score1101.txt,NumberFormatException: For input string: "BAD"
+score1200.txt,NoSuchFileException: inputs/score1200.txt
+score1201.txt,NumberFormatException: For input string: "BAD"
+score1300.txt,NoSuchFileException: inputs/score1300.txt
+score1301.txt,NumberFormatException: For input string: "BAD"
+score1400.txt,NoSuchFileException: inputs/score1400.txt
+score1401.txt,NumberFormatException: For input string: "BAD"
+score1500.txt,NoSuchFileException: inputs/score1500.txt
+score1501.txt,NumberFormatException: For input string: "BAD"
+score1600.txt,NoSuchFileException: inputs/score1600.txt
+score1601.txt,NumberFormatException: For input string: "BAD"
+score1700.txt,NoSuchFileException: inputs/score1700.txt
+score1701.txt,NumberFormatException: For input string: "BAD"
+score1800.txt,NoSuchFileException: inputs/score1800.txt
+score1801.txt,NumberFormatException: For input string: "BAD"
+score1900.txt,NoSuchFileException: inputs/score1900.txt
+score1901.txt,NumberFormatException: For input string: "BAD"
+score2000.txt,NoSuchFileException: inputs/score2000.txt
+score2001.txt,NumberFormatException: For input string: "BAD"
+score2100.txt,NoSuchFileException: inputs/score2100.txt
+score2101.txt,NumberFormatException: For input string: "BAD"
+score2200.txt,NoSuchFileException: inputs/score2200.txt
+score2201.txt,NumberFormatException: For input string: "BAD"
+score2300.txt,NoSuchFileException: inputs/score2300.txt
+score2301.txt,NumberFormatException: For input string: "BAD"
+score2400.txt,NoSuchFileException: inputs/score2400.txt
+score2401.txt,NumberFormatException: For input string: "BAD"
+score2500.txt,NoSuchFileException: inputs/score2500.txt
+score2501.txt,NumberFormatException: For input string: "BAD"
+score2600.txt,NoSuchFileException: inputs/score2600.txt
+score2601.txt,NumberFormatException: For input string: "BAD"
+score2700.txt,NoSuchFileException: inputs/score2700.txt
+score2701.txt,NumberFormatException: For input string: "BAD"
+score2800.txt,NoSuchFileException: inputs/score2800.txt
+score2801.txt,NumberFormatException: For input string: "BAD"
+score2900.txt,NoSuchFileException: inputs/score2900.txt
+score2901.txt,NumberFormatException: For input string: "BAD"
+score3000.txt,NoSuchFileException: inputs/score3000.txt
+score3001.txt,NumberFormatException: For input string: "BAD"
+score3100.txt,NoSuchFileException: inputs/score3100.txt
+score3101.txt,NumberFormatException: For input string: "BAD"
+score3200.txt,NoSuchFileException: inputs/score3200.txt
+score3201.txt,NumberFormatException: For input string: "BAD"
+score3300.txt,NoSuchFileException: inputs/score3300.txt
+score3301.txt,NumberFormatException: For input string: "BAD"
+score3400.txt,NoSuchFileException: inputs/score3400.txt
+score3401.txt,NumberFormatException: For input string: "BAD"
+score3500.txt,NoSuchFileException: inputs/score3500.txt
+score3501.txt,NumberFormatException: For input string: "BAD"
+score3600.txt,NoSuchFileException: inputs/score3600.txt
+score3601.txt,NumberFormatException: For input string: "BAD"
+score3700.txt,NoSuchFileException: inputs/score3700.txt
+score3701.txt,NumberFormatException: For input string: "BAD"
+score3800.txt,NoSuchFileException: inputs/score3800.txt
+score3801.txt,NumberFormatException: For input string: "BAD"
+score3900.txt,NoSuchFileException: inputs/score3900.txt
+score3901.txt,NumberFormatException: For input string: "BAD"
+score4000.txt,NoSuchFileException: inputs/score4000.txt
+score4001.txt,NumberFormatException: For input string: "BAD"
+score4100.txt,NoSuchFileException: inputs/score4100.txt
+score4101.txt,NumberFormatException: For input string: "BAD"
+score4200.txt,NoSuchFileException: inputs/score4200.txt
+score4201.txt,NumberFormatException: For input string: "BAD"
+score4300.txt,NoSuchFileException: inputs/score4300.txt
+score4301.txt,NumberFormatException: For input string: "BAD"
+score4400.txt,NoSuchFileException: inputs/score4400.txt
+score4401.txt,NumberFormatException: For input string: "BAD"
+score4500.txt,NoSuchFileException: inputs/score4500.txt
+score4501.txt,NumberFormatException: For input string: "BAD"
+score4600.txt,NoSuchFileException: inputs/score4600.txt
+score4601.txt,NumberFormatException: For input string: "BAD"
+score4700.txt,NoSuchFileException: inputs/score4700.txt
+score4701.txt,NumberFormatException: For input string: "BAD"
+score4800.txt,NoSuchFileException: inputs/score4800.txt
+score4801.txt,NumberFormatException: For input string: "BAD"
+score4900.txt,NoSuchFileException: inputs/score4900.txt
+score4901.txt,NumberFormatException: For input string: "BAD"
+score5000.txt,NoSuchFileException: inputs/score5000.txt
+score5001.txt,NumberFormatException: For input string: "BAD"
+score5100.txt,NoSuchFileException: inputs/score5100.txt
+score5101.txt,NumberFormatException: For input string: "BAD"
+score5200.txt,NoSuchFileException: inputs/score5200.txt
+score5201.txt,NumberFormatException: For input string: "BAD"
+score5300.txt,NoSuchFileException: inputs/score5300.txt
+score5301.txt,NumberFormatException: For input string: "BAD"
+score5400.txt,NoSuchFileException: inputs/score5400.txt
+score5401.txt,NumberFormatException: For input string: "BAD"
+score5500.txt,NoSuchFileException: inputs/score5500.txt
+score5501.txt,NumberFormatException: For input string: "BAD"
+score5600.txt,NoSuchFileException: inputs/score5600.txt
+score5601.txt,NumberFormatException: For input string: "BAD"
+score5700.txt,NoSuchFileException: inputs/score5700.txt
+score5701.txt,NumberFormatException: For input string: "BAD"
+score5800.txt,NoSuchFileException: inputs/score5800.txt
+score5801.txt,NumberFormatException: For input string: "BAD"
+score5900.txt,NoSuchFileException: inputs/score5900.txt
+score5901.txt,NumberFormatException: For input string: "BAD"
+score6000.txt,NoSuchFileException: inputs/score6000.txt
+score6001.txt,NumberFormatException: For input string: "BAD"
+score6100.txt,NoSuchFileException: inputs/score6100.txt
+score6101.txt,NumberFormatException: For input string: "BAD"
+score6200.txt,NoSuchFileException: inputs/score6200.txt
+score6201.txt,NumberFormatException: For input string: "BAD"
+score6300.txt,NoSuchFileException: inputs/score6300.txt
+score6301.txt,NumberFormatException: For input string: "BAD"
+score6400.txt,NoSuchFileException: inputs/score6400.txt
+score6401.txt,NumberFormatException: For input string: "BAD"
+score6500.txt,NoSuchFileException: inputs/score6500.txt
+score6501.txt,NumberFormatException: For input string: "BAD"
+score6600.txt,NoSuchFileException: inputs/score6600.txt
+score6601.txt,NumberFormatException: For input string: "BAD"
+score6700.txt,NoSuchFileException: inputs/score6700.txt
+score6701.txt,NumberFormatException: For input string: "BAD"
+score6800.txt,NoSuchFileException: inputs/score6800.txt
+score6801.txt,NumberFormatException: For input string: "BAD"
+score6900.txt,NoSuchFileException: inputs/score6900.txt
+score6901.txt,NumberFormatException: For input string: "BAD"
+score7000.txt,NoSuchFileException: inputs/score7000.txt
+score7001.txt,NumberFormatException: For input string: "BAD"
+score7100.txt,NoSuchFileException: inputs/score7100.txt
+score7101.txt,NumberFormatException: For input string: "BAD"
+score7200.txt,NoSuchFileException: inputs/score7200.txt
+score7201.txt,NumberFormatException: For input string: "BAD"
+score7300.txt,NoSuchFileException: inputs/score7300.txt
+score7301.txt,NumberFormatException: For input string: "BAD"
+score7400.txt,NoSuchFileException: inputs/score7400.txt
+score7401.txt,NumberFormatException: For input string: "BAD"
+score7500.txt,NoSuchFileException: inputs/score7500.txt
+score7501.txt,NumberFormatException: For input string: "BAD"
+score7600.txt,NoSuchFileException: inputs/score7600.txt
+score7601.txt,NumberFormatException: For input string: "BAD"
+score7700.txt,NoSuchFileException: inputs/score7700.txt
+score7701.txt,NumberFormatException: For input string: "BAD"
+score7800.txt,NoSuchFileException: inputs/score7800.txt
+score7801.txt,NumberFormatException: For input string: "BAD"
+score7900.txt,NoSuchFileException: inputs/score7900.txt
+score7901.txt,NumberFormatException: For input string: "BAD"
+score8000.txt,NoSuchFileException: inputs/score8000.txt
+score8001.txt,NumberFormatException: For input string: "BAD"
+score8100.txt,NoSuchFileException: inputs/score8100.txt
+score8101.txt,NumberFormatException: For input string: "BAD"
+score8200.txt,NoSuchFileException: inputs/score8200.txt
+score8201.txt,NumberFormatException: For input string: "BAD"
+score8300.txt,NoSuchFileException: inputs/score8300.txt
+score8301.txt,NumberFormatException: For input string: "BAD"
+score8400.txt,NoSuchFileException: inputs/score8400.txt
+score8401.txt,NumberFormatException: For input string: "BAD"
+score8500.txt,NoSuchFileException: inputs/score8500.txt
+score8501.txt,NumberFormatException: For input string: "BAD"
+score8600.txt,NoSuchFileException: inputs/score8600.txt
+score8601.txt,NumberFormatException: For input string: "BAD"
+score8700.txt,NoSuchFileException: inputs/score8700.txt
+score8701.txt,NumberFormatException: For input string: "BAD"
+score8800.txt,NoSuchFileException: inputs/score8800.txt
+score8801.txt,NumberFormatException: For input string: "BAD"
+score8900.txt,NoSuchFileException: inputs/score8900.txt
+score8901.txt,NumberFormatException: For input string: "BAD"
+score9000.txt,NoSuchFileException: inputs/score9000.txt
+score9001.txt,NumberFormatException: For input string: "BAD"
+score9100.txt,NoSuchFileException: inputs/score9100.txt
+score9101.txt,NumberFormatException: For input string: "BAD"
+score9200.txt,NoSuchFileException: inputs/score9200.txt
+score9201.txt,NumberFormatException: For input string: "BAD"
+score9300.txt,NoSuchFileException: inputs/score9300.txt
+score9301.txt,NumberFormatException: For input string: "BAD"
+score9400.txt,NoSuchFileException: inputs/score9400.txt
+score9401.txt,NumberFormatException: For input string: "BAD"
+score9500.txt,NoSuchFileException: inputs/score9500.txt
+score9501.txt,NumberFormatException: For input string: "BAD"
+score9600.txt,NoSuchFileException: inputs/score9600.txt
+score9601.txt,NumberFormatException: For input string: "BAD"
+score9700.txt,NoSuchFileException: inputs/score9700.txt
+score9701.txt,NumberFormatException: For input string: "BAD"
+score9800.txt,NoSuchFileException: inputs/score9800.txt
+score9801.txt,NumberFormatException: For input string: "BAD"
+score9900.txt,NoSuchFileException: inputs/score9900.txt
+score9901.txt,NumberFormatException: For input string: "BAD"
