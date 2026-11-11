@@ -1,0 +1,9 @@
+$ java ResultProcessor
+PASS hand checked 3 successful files and 2 rejected files
+MEASURED pool_1 size=10000 trials=5
+MEASURED pool_2 size=10000 trials=5
+MEASURED pool_4 size=10000 trials=5
+MEASURED pool_8 size=10000 trials=5
+Files=10000 success=9800 failure=200; one result per submitted path
+
+Exit code: 0

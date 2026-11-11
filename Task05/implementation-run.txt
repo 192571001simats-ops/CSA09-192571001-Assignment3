@@ -1,0 +1,4 @@
+$ java SeatBooking
+Seats sold: 10
+
+Exit code: 0

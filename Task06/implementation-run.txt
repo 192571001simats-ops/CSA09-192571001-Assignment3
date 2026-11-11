@@ -1,0 +1,4 @@
+$ java TokenCounter
+Sum of tokens collected: 210 (expected 210)
+
+Exit code: 0
