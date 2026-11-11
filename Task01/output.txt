@@ -1,0 +1,23 @@
+$ java Atm
+CASE [1001, 100]
+DISPENSED 100 balance=900
+FINALLY session closed
+CASE [abc, 100]
+CATCH NumberFormatException: enter numbers
+FINALLY session closed
+CASE [1001, -1]
+CATCH business validation: Account and amount must be positive
+FINALLY session closed
+CASE [1001, 2000]
+CATCH business validation: Insufficient balance
+FINALLY session closed
+CASE [1001, 0]
+CATCH business validation: Account and amount must be positive
+FINALLY session closed
+CATCH NoSuchFileException: card reader unavailable
+FINALLY session closed
+PASS only the valid withdrawal changed balance
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
