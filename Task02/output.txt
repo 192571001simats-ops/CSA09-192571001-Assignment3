@@ -1,0 +1,27 @@
+$ java StorageDemo
+Saved answer01.pdf
+Error: Could not store answer02.pdf
+Cause: Disk quota exceeded
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
+$ java ExamPortal
+Submission accepted
+Controller handled ExamClosed: Exam window closed
+Controller handled NotRegistered: Student not registered
+Controller handled TooLarge: Answer exceeds 500 KB
+Controller handled SubmissionStorageException: Submission could not be stored
+getCause=java.io.IOException: Storage unavailable
+SubmissionStorageException: Submission could not be stored
+	at ExamPortal.service(ExamPortal.java:9)
+	at ExamPortal.main(ExamPortal.java:12)
+Caused by: java.io.IOException: Storage unavailable
+	at ExamPortal.service(ExamPortal.java:8)
+	... 1 more
+PASS omitting cause loses lower-layer diagnostics
+Calling getCause().getMessage() with a null cause would throw NullPointerException
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
