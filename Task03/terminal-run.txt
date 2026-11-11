@@ -1,0 +1,14 @@
+$ java com.sun.tools.javac.Main -encoding UTF-8 -g -d build @sources.txt
+$ compile_status=0
+Compiler exit code: 0
+$ java -Xms128m -Xmx512m SalesResources
+PASS manual finally and try-with-resources same sales report
+Leaky version open readers after failure=1
+PASS reproduced leaked handle
+PASS manual finally closes on failure
+FAILED FILE store-b.txt java.lang.NumberFormatException: For input string: "BAD"
+PASS try-with-resources closes on failure
+Primary: body failed; suppressed: close failed
+Atomic publication of the report is still required to avoid publishing a partially written result
+$ run_status=0
+Program exit code: 0
