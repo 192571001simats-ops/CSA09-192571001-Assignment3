@@ -1,0 +1,35 @@
+$ java SeatBooking
+Seats sold: 10
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
+$ java BookingExperiments
+PASS controlled race run 1 sells one seat twice
+Uncontrolled unsynchronized run 1 counter=10 (counter can also lose updates)
+PASS controlled race run 2 sells one seat twice
+Uncontrolled unsynchronized run 2 counter=10 (counter can also lose updates)
+PASS controlled race run 3 sells one seat twice
+Uncontrolled unsynchronized run 3 counter=10 (counter can also lose updates)
+PASS controlled race run 4 sells one seat twice
+Uncontrolled unsynchronized run 4 counter=10 (counter can also lose updates)
+PASS controlled race run 5 sells one seat twice
+Uncontrolled unsynchronized run 5 counter=10 (counter can also lose updates)
+PASS controlled race run 6 sells one seat twice
+Uncontrolled unsynchronized run 6 counter=10 (counter can also lose updates)
+PASS controlled race run 7 sells one seat twice
+Uncontrolled unsynchronized run 7 counter=10 (counter can also lose updates)
+PASS controlled race run 8 sells one seat twice
+Uncontrolled unsynchronized run 8 counter=10 (counter can also lose updates)
+PASS controlled race run 9 sells one seat twice
+Uncontrolled unsynchronized run 9 counter=10 (counter can also lose updates)
+PASS controlled race run 10 sells one seat twice
+Uncontrolled unsynchronized run 10 counter=10 (counter can also lose updates)
+MEASURED unsafe_10000_requests size=10000 trials=5
+MEASURED method_10000_requests size=10000 trials=5
+MEASURED block_10000_requests size=10000 trials=5
+PASS CAS alternative permits one owner
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0

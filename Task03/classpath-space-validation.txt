@@ -1,0 +1,97 @@
+BREAKPOINT SalesResources:28
+STEP OVER SalesResources:29
+EXCEPTION STOP java.lang.NumberFormatException
+CALLER SalesResources:33
+Tracked open readers=1
+files=instance of java.util.ImmutableCollections$List12(id=259)
+sum=350.0
+p=instance of sun.nio.fs.UnixPath(id=261)
+r=instance of SalesResources$TrackedReader(id=262)
+line="BAD"
+CALLER SalesResources:86
+Tracked open readers=1
+args=instance of java.lang.String[0] (id=264)
+dir=instance of sun.nio.fs.UnixPath(id=266)
+a=instance of sun.nio.fs.UnixPath(id=267)
+b=instance of sun.nio.fs.UnixPath(id=261)
+files=instance of java.util.ImmutableCollections$List12(id=259)
+expected=350.0
+EXCEPTION STOP java.lang.NumberFormatException
+CALLER SalesResources:46
+Tracked open readers=1
+files=instance of java.util.ImmutableCollections$List12(id=259)
+sum=350.0
+p=instance of sun.nio.fs.UnixPath(id=261)
+r=instance of SalesResources$TrackedReader(id=280)
+line="BAD"
+CALLER SalesResources:93
+Tracked open readers=1
+args=instance of java.lang.String[0] (id=264)
+dir=instance of sun.nio.fs.UnixPath(id=266)
+a=instance of sun.nio.fs.UnixPath(id=267)
+b=instance of sun.nio.fs.UnixPath(id=261)
+files=instance of java.util.ImmutableCollections$List12(id=259)
+expected=350.0
+EXCEPTION STOP java.lang.NumberFormatException
+CALLER SalesResources:49
+Tracked open readers=0
+files=instance of java.util.ImmutableCollections$List12(id=259)
+sum=350.0
+p=instance of sun.nio.fs.UnixPath(id=261)
+r=instance of SalesResources$TrackedReader(id=280)
+CALLER SalesResources:93
+Tracked open readers=0
+args=instance of java.lang.String[0] (id=264)
+dir=instance of sun.nio.fs.UnixPath(id=266)
+a=instance of sun.nio.fs.UnixPath(id=267)
+b=instance of sun.nio.fs.UnixPath(id=261)
+files=instance of java.util.ImmutableCollections$List12(id=259)
+expected=350.0
+EXCEPTION STOP java.lang.NumberFormatException
+CALLER SalesResources:59
+Tracked open readers=1
+files=instance of java.util.ImmutableCollections$List12(id=259)
+sum=350.0
+p=instance of sun.nio.fs.UnixPath(id=261)
+r=instance of SalesResources$TrackedReader(id=283)
+line="BAD"
+CALLER SalesResources:98
+Tracked open readers=1
+args=instance of java.lang.String[0] (id=264)
+dir=instance of sun.nio.fs.UnixPath(id=266)
+a=instance of sun.nio.fs.UnixPath(id=267)
+b=instance of sun.nio.fs.UnixPath(id=261)
+files=instance of java.util.ImmutableCollections$List12(id=259)
+expected=350.0
+EXCEPTION STOP java.lang.NumberFormatException
+CALLER SalesResources:57
+Tracked open readers=0
+files=instance of java.util.ImmutableCollections$List12(id=259)
+sum=350.0
+p=instance of sun.nio.fs.UnixPath(id=261)
+r=instance of SalesResources$TrackedReader(id=283)
+CALLER SalesResources:98
+Tracked open readers=0
+args=instance of java.lang.String[0] (id=264)
+dir=instance of sun.nio.fs.UnixPath(id=266)
+a=instance of sun.nio.fs.UnixPath(id=267)
+b=instance of sun.nio.fs.UnixPath(id=261)
+files=instance of java.util.ImmutableCollections$List12(id=259)
+expected=350.0
+EXCEPTION STOP java.lang.NumberFormatException
+CALLER SalesResources:62
+Tracked open readers=0
+files=instance of java.util.ImmutableCollections$List12(id=259)
+sum=350.0
+p=instance of sun.nio.fs.UnixPath(id=261)
+e=instance of java.lang.NumberFormatException(id=282)
+CALLER SalesResources:98
+Tracked open readers=0
+args=instance of java.lang.String[0] (id=264)
+dir=instance of sun.nio.fs.UnixPath(id=266)
+a=instance of sun.nio.fs.UnixPath(id=267)
+b=instance of sun.nio.fs.UnixPath(id=261)
+files=instance of java.util.ImmutableCollections$List12(id=259)
+expected=350.0
+Debugger demonstrates the failure occurs before the close/reset statement
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8

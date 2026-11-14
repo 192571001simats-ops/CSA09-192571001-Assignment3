@@ -1,0 +1,114 @@
+$ java SalesResources
+PASS manual finally and try-with-resources same sales report
+Leaky version open readers after failure=1
+PASS reproduced leaked handle
+PASS manual finally closes on failure
+FAILED FILE store-b.txt java.lang.NumberFormatException: For input string: "BAD"
+PASS try-with-resources closes on failure
+Primary: body failed; suppressed: close failed
+Atomic publication of the report is still required to avoid publishing a partially written result
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0
+$ java DebugSession
+BREAKPOINT SalesResources:28
+STEP OVER SalesResources:29
+EXCEPTION STOP java.lang.NumberFormatException
+CALLER SalesResources:33
+Tracked open readers=1
+files=instance of java.util.ImmutableCollections$List12(id=260)
+sum=350.0
+p=instance of sun.nio.fs.UnixPath(id=262)
+r=instance of SalesResources$TrackedReader(id=263)
+line="BAD"
+CALLER SalesResources:86
+Tracked open readers=1
+args=instance of java.lang.String[0] (id=265)
+dir=instance of sun.nio.fs.UnixPath(id=267)
+a=instance of sun.nio.fs.UnixPath(id=268)
+b=instance of sun.nio.fs.UnixPath(id=262)
+files=instance of java.util.ImmutableCollections$List12(id=260)
+expected=350.0
+EXCEPTION STOP java.lang.NumberFormatException
+CALLER SalesResources:46
+Tracked open readers=1
+files=instance of java.util.ImmutableCollections$List12(id=260)
+sum=350.0
+p=instance of sun.nio.fs.UnixPath(id=262)
+r=instance of SalesResources$TrackedReader(id=281)
+line="BAD"
+CALLER SalesResources:93
+Tracked open readers=1
+args=instance of java.lang.String[0] (id=265)
+dir=instance of sun.nio.fs.UnixPath(id=267)
+a=instance of sun.nio.fs.UnixPath(id=268)
+b=instance of sun.nio.fs.UnixPath(id=262)
+files=instance of java.util.ImmutableCollections$List12(id=260)
+expected=350.0
+EXCEPTION STOP java.lang.NumberFormatException
+CALLER SalesResources:49
+Tracked open readers=0
+files=instance of java.util.ImmutableCollections$List12(id=260)
+sum=350.0
+p=instance of sun.nio.fs.UnixPath(id=262)
+r=instance of SalesResources$TrackedReader(id=281)
+CALLER SalesResources:93
+Tracked open readers=0
+args=instance of java.lang.String[0] (id=265)
+dir=instance of sun.nio.fs.UnixPath(id=267)
+a=instance of sun.nio.fs.UnixPath(id=268)
+b=instance of sun.nio.fs.UnixPath(id=262)
+files=instance of java.util.ImmutableCollections$List12(id=260)
+expected=350.0
+EXCEPTION STOP java.lang.NumberFormatException
+CALLER SalesResources:59
+Tracked open readers=1
+files=instance of java.util.ImmutableCollections$List12(id=260)
+sum=350.0
+p=instance of sun.nio.fs.UnixPath(id=262)
+r=instance of SalesResources$TrackedReader(id=284)
+line="BAD"
+CALLER SalesResources:98
+Tracked open readers=1
+args=instance of java.lang.String[0] (id=265)
+dir=instance of sun.nio.fs.UnixPath(id=267)
+a=instance of sun.nio.fs.UnixPath(id=268)
+b=instance of sun.nio.fs.UnixPath(id=262)
+files=instance of java.util.ImmutableCollections$List12(id=260)
+expected=350.0
+EXCEPTION STOP java.lang.NumberFormatException
+CALLER SalesResources:57
+Tracked open readers=0
+files=instance of java.util.ImmutableCollections$List12(id=260)
+sum=350.0
+p=instance of sun.nio.fs.UnixPath(id=262)
+r=instance of SalesResources$TrackedReader(id=284)
+CALLER SalesResources:98
+Tracked open readers=0
+args=instance of java.lang.String[0] (id=265)
+dir=instance of sun.nio.fs.UnixPath(id=267)
+a=instance of sun.nio.fs.UnixPath(id=268)
+b=instance of sun.nio.fs.UnixPath(id=262)
+files=instance of java.util.ImmutableCollections$List12(id=260)
+expected=350.0
+EXCEPTION STOP java.lang.NumberFormatException
+CALLER SalesResources:62
+Tracked open readers=0
+files=instance of java.util.ImmutableCollections$List12(id=260)
+sum=350.0
+p=instance of sun.nio.fs.UnixPath(id=262)
+e=instance of java.lang.NumberFormatException(id=283)
+CALLER SalesResources:98
+Tracked open readers=0
+args=instance of java.lang.String[0] (id=265)
+dir=instance of sun.nio.fs.UnixPath(id=267)
+a=instance of sun.nio.fs.UnixPath(id=268)
+b=instance of sun.nio.fs.UnixPath(id=262)
+files=instance of java.util.ImmutableCollections$List12(id=260)
+expected=350.0
+Debugger demonstrates the failure occurs before the close/reset statement
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+
+Exit code: 0

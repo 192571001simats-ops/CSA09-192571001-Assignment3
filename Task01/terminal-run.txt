@@ -1,0 +1,24 @@
+$ java com.sun.tools.javac.Main -encoding UTF-8 -g -d build @sources.txt
+$ compile_status=0
+Compiler exit code: 0
+$ java -Xms128m -Xmx512m Atm
+CASE [1001, 100]
+DISPENSED 100 balance=900
+FINALLY session closed
+CASE [abc, 100]
+CATCH NumberFormatException: enter numbers
+FINALLY session closed
+CASE [1001, -1]
+CATCH business validation: Account and amount must be positive
+FINALLY session closed
+CASE [1001, 2000]
+CATCH business validation: Insufficient balance
+FINALLY session closed
+CASE [1001, 0]
+CATCH business validation: Account and amount must be positive
+FINALLY session closed
+CATCH NoSuchFileException: card reader unavailable
+FINALLY session closed
+PASS only the valid withdrawal changed balance
+$ run_status=0
+Program exit code: 0

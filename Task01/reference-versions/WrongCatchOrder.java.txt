@@ -1,0 +1,1 @@
+public class WrongCatchOrder {public static void main(String[] args){try{Integer.parseInt("x");}catch(IllegalArgumentException e){System.out.println("broad");}catch(NumberFormatException e){System.out.println("narrow");}}}

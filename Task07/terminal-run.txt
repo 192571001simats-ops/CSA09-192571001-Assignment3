@@ -1,0 +1,12 @@
+$ java com.sun.tools.javac.Main -encoding UTF-8 -g -d build @sources.txt
+$ compile_status=0
+Compiler exit code: 0
+$ java -Xms128m -Xmx512m ResultProcessor
+PASS hand checked 3 successful files and 2 rejected files
+MEASURED pool_1 size=10000 trials=5
+MEASURED pool_2 size=10000 trials=5
+MEASURED pool_4 size=10000 trials=5
+MEASURED pool_8 size=10000 trials=5
+Files=10000 success=9800 failure=200; one result per submitted path
+$ run_status=0
+Program exit code: 0

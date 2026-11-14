@@ -1,0 +1,16 @@
+case,size,trial,nanoseconds,heap_delta_bytes
+unsafe_10000_requests,10000,1,949859,0
+unsafe_10000_requests,10000,2,960716,0
+unsafe_10000_requests,10000,3,1270627,0
+unsafe_10000_requests,10000,4,1009924,0
+unsafe_10000_requests,10000,5,1441365,0
+method_10000_requests,10000,1,1000223,0
+method_10000_requests,10000,2,1048449,0
+method_10000_requests,10000,3,2906789,482368
+method_10000_requests,10000,4,779063,0
+method_10000_requests,10000,5,1408898,0
+block_10000_requests,10000,1,1212314,0
+block_10000_requests,10000,2,1189139,0
+block_10000_requests,10000,3,1040314,0
+block_10000_requests,10000,4,847274,0
+block_10000_requests,10000,5,811804,0
